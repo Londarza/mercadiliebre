@@ -1,0 +1,97 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    }
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+form{
+    background-color: var(--Gris-claro);    
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;    
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+main form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    
+}
+
+
+.nombreapellido{    
+    width: 90%;
+}
+.nombreapellido div{
+    position: relative;
+    right: 20px;
+    
+}
+
+
+
+.Perfil-form{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.Perfil-form h4{
+    width: 100%;
+}
+.Perfil-form div{
+    width:90%;
+}
+.interes-form{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.interes-form h4{
+    width: 100%;
+}
+.Perfil-form div{
+    width: 90%;
+}
+.boton-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.borrar-form{
+    display: none;
+}
+.enviar-form{
+    width: 80%;
+    align-self: center;
+    background-color: var(--Celeste);
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+
+@media (min-width: 361px){    
+    .nombreapellido div{
+        position: relative;
+        right: -10px;
+        
+    }
+}
+@media (min-width: 769px){   
+    .nombreapellido div{
+        position: relative;
+        right: -20px;
+        
+    } 
+}
